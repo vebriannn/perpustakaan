@@ -17,6 +17,9 @@ Route::get('/', function () {
     return view('pages.auth.login');
 });
 
-Route::get('/coba/user/{name}', function ($name) {
-    return view('coba', ['nama' => $name]);
-});
+Route::get('/home', function () {
+    return view('pages.member.index');
+})->name('member.home');
+Route::get('/katalog', function () {
+    return view('pages.member.katalog');
+})->name('member.katalog');

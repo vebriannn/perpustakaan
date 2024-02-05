@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-nav:first-child .nav-link {
+    font-size: 18px !important;
+    transition: 1ms;
+}
+
+.navbar-nav:first-child .nav-link:hover {
+    font-weight: bold;
+}
+
+.navbar-nav:first-child .nav-link.active {
+    color: black;
+    font-weight: bold;
+}
+
+.navbar-nav:last-child .nav-item:first-child .nav-link {
+    font-size: 18px !important;
+    font-weight: bold;
+    color: blue;
+}
+
+.navbar-nav:last-child .nav-item:last-child .nav-link {
+    font-size: 18px !important;
+    font-weight: bold;
+    background-color: rgb(224, 165, 88);
+    border-radius: 6px;
+}
+
+.book-view .container .content p span {
+    color: blue;
+}
+
